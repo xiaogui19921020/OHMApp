@@ -1,0 +1,70 @@
+.jss36,.jss38{ text-align: center}
+.bontext{    font-size: 1rem;
+    font-family: Square;
+    font-weight: 500;
+    line-height: 1.6;}
+.MuiButton-outlinedPrimary{ padding: 0 20px!important;}
+#bond-view{ z-index: 999; display: flex; align-items: center;}
+
+.MuiBackdrop-root22 {
+	top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    z-index: 10;
+    position: fixed;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    justify-content: center;
+    
+    background-color: rgb(85 85 85);
+    -webkit-tap-highlight-color: transparent;
+}
+
+#oneTan{ display: table; margin: 0 auto;  z-index: 10;  left: 50%;margin-left:auto ; margin-right:auto}
+
+@media (min-width:600px) {
+	#m_table{ display:none !important}
+	#pc_table{ display: block  !important}
+}
+
+
+
+.jss122{ display: none;}
+.jss123{ display: table; margin: 0 auto; margin-top: 25px;}
+#title_tab{width: auto; display: table; margin: 0 auto; }
+#title_tab button{ margin: 0 10px; color: #768299;font-size: 24px;}
+#title_tab button.active{ color: #253449; position: relative; border-bottom: 1px solid #253449; box-sizing: border-box;}
+/* #title_tab button.active::after{ content: ''; width: 22px; height: 2px; background: #253449; top: 55px; left: 50%; margin-left: -11px; position: absolute;} */
+
+.jss72{ position: relative;}
+#hades .ohm-popover h3{position: absolute; top: 0; width: 100% !important;z-index: 0;}
+.MuiOutlinedInput-input{ padding: 18.5px 14px;}
+#hades .jss73 label,.titSli{ margin:33px 0 10px ;color: #768299;
+    padding: 0;
+    font-size: 0.875rem;
+    font-family: Square;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.MuiInputBase-root{width: 100%; border: 1px solid #333; border-radius: 5px; height: 45px; line-height: 45px;  box-sizing: border-box;position: relative; overflow: hidden;}
+.MuiInputBase-root input{width: 100%; float: left;padding: 0 15px; box-sizing: border-box;height: 43px; line-height: 43px; outline: none; border:0 }
+.baifen{ position: absolute; right: 10px; top: 13px;}
+.btn-close{ z-index: 2;}
+@media only screen and (max-width: 750px) {
+	#m_table{ display: block  !important}
+	#pc_table{ display:none !important}
+	/* .MuiPaper-root{ background:none !important}
+	.MuiTableHead-root{ display: none !important} */
+	.MuiGrid-grid-xs-6{ text-align:right !important}
+	.title_tab button.active{font-size: 14px;}
+	.MuiInputBase-root{ line-height: 30px; height:30px}
+	.MuiInputBase-root input{ line-height: 30px; height: 30px;}
+	.baifen{ position: absolute; right: 10px; top: 8px;}
+
+}
+.dapp-nav a{
+	text-align: left;
+}
