@@ -154,13 +154,13 @@ async function DAIbondContractData(){
 	
 	let maxPayout = await DAIbondContract.methods.maxPayout().call();
 	let debtRatio = await DAIbondContract.methods.debtRatio().call();
-	$("#MaxYouCanBuy").html((maxPayout/daiwei).toFixed(2) +" KOM");
+	$("#MaxYouCanBuy").html((maxPayout/daiwei).toFixed(2) +" KDM");
 	$(".DebtRatio").html((debtRatio/daiwei*100).toFixed(2) +"%");
 	
 	
 	let pendingPayoutFor = await DAIbondContract.methods.pendingPayoutFor(currentAddress).call();
 	//console.log('pendingPayoutFor is: ' + pendingPayoutFor);
-	$("#ClaimableRewards").html((pendingPayoutFor / daiwei).toFixed(4) + "KOM");
+	$("#ClaimableRewards").html((pendingPayoutFor / daiwei).toFixed(4) + "KDM");
 }
 
 async function initContractData() {
